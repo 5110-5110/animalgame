@@ -9,6 +9,8 @@ body {
     min-height: 100vh;
     color: #333;
     touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .game-container {
@@ -45,6 +47,7 @@ h1 {
     border-radius: 8px;
     background: #fff;
     overflow: hidden;
+    cursor: pointer;
 }
 
 canvas {
